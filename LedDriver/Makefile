@@ -5,7 +5,7 @@ CFLAGS = -std=c89
 CFLAGS += -Wall
 CFLAGS += -Wextra
 CFLAGS += -Wincompatible-pointer-types-discards-qualifiers
-
+CPPUTEST_WARNINGFLAGS += -Wno-unknown-warning-option
 UNITY_ROOT=../Unity
 UNITY_FIXTURE_ROOT=$(UNITY_ROOT)/extras/fixture/
 TEST_TARGET=LedDriverTest

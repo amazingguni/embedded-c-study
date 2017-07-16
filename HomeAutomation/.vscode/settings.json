@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "faketimeservice.c": "cpp",
+        "lightcontrollerspy.c": "cpp",
+        "timeservice.h": "c",
+        "lightscheduler.c": "cpp"
+    }
+}
